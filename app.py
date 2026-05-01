@@ -22,8 +22,8 @@ app.add_middleware(
 )
 
 base_dir = os.path.dirname(os.path.abspath(__file__))
-model_path = os.path.join(base_dir, "best_svm_pipeline.pkl")
-features_path = os.path.join(base_dir, "feature_columns.pkl")
+model_path = os.path.join(base_dir, "/saved_models/best_svm_pipeline.pkl")
+features_path = os.path.join(base_dir, "/saved_models/feature_columns.pkl")
 
 model = joblib.load(model_path)
 feature_columns = joblib.load(features_path)
