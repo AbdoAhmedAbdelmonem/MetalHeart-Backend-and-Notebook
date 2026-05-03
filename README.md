@@ -46,7 +46,7 @@ GET /features
     "difficulty_walking", "gender", "age_group",
     "education_level", "income_level"
   ],
-  "count": 15
+  "count": 14
 }
 ```
 
