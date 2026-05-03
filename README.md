@@ -67,7 +67,6 @@ POST /predict
     "had_stroke": 1,
     "diabetes_status": 2,
     "physical_activity": 0,
-    "no_doctor_due_to_cost": 1,
     "general_health": 5,
     "physical_health_days": 25,
     "difficulty_walking": 1,
@@ -110,7 +109,6 @@ POST /predict
 | `had_stroke`            | 0 or 1  | Ever had a stroke                                |
 | `diabetes_status`       | 0, 1, 2 | 0 = No, 1 = Pre-diabetes, 2 = Diabetes         |
 | `physical_activity`     | 0 or 1  | Physical activity in past 30 days                |
-| `no_doctor_due_to_cost` | 0 or 1  | Couldn't see doctor due to cost                  |
 | `general_health`        | 1–5     | 1 = Excellent, 5 = Poor                         |
 | `physical_health_days`  | 0–30    | Days of poor physical health in past 30 days     |
 | `difficulty_walking`    | 0 or 1  | Serious difficulty walking or climbing stairs    |
